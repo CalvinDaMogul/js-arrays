@@ -19,3 +19,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.topic {
+    font-size: 15px;
+}

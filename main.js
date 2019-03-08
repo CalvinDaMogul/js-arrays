@@ -84,7 +84,7 @@ const buildAssignmentsCards = () => {
         domstring += `<div class="assignment">`
         domstring += `<h3>${assignments[i].title}<h3>`;
         domstring += `<strong> Due Date:<p>${assignments[i].dueDate}</strong></p>`;
-        domstring += `<p>${assignments[i].topic}</p>`;
+        domstring += `<p class="topic">${assignments[i].topic}</p>`;
         domstring += `<p>${assignments[i].notes}</p>`;
         domstring += `<p>${assignments[i].assignmentUrl}</p>`;
         domstring += `</div>`
