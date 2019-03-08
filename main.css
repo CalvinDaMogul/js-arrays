@@ -5,3 +5,21 @@ body {
 .dinosaur {
     border: 2px solid gainsboro;
 }
+
+.assignment {
+    border: 2px solid gainsboro;
+    padding: 0px;
+    width: 375px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+#assignment {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.topic {
+    font-size: 15px;
+}
